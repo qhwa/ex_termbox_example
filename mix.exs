@@ -22,7 +22,8 @@ defmodule ExTermboxExample.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ratatouille, "0.5.1"}
+      {:ratatouille, "0.5.1"},
+      {:ex_termbox, ">= 0.0.0", git: "https://github.com/qhwa/ex_termbox.git", override: true}
     ]
   end
 
